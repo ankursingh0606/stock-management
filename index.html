@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Stock Management</title>
+</head>
+
+<body>
+    <form id="my-form">
+        <h1>A Stock Management Tool for Seller (Candy Shop)</h1>
+        <div>
+            <label for="candyName">Candy Name</label>
+            <input type="text" id="candyName">
+        </div>
+        <div>
+            <label for="description">Description</label>
+            <input type="text" id="description">
+        </div>
+        <div>
+            <label for="price">Price</label>
+            <input type="number" id="price">
+        </div>
+        <div>
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity">
+        </div>
+        <div>
+            <label for="addItems"></label>
+            <input type="submit" id="addItems" value="Add Items">
+        </div>
+        <ul id="stock"></ul>
+    </form>
+</body>
+
+</html>
